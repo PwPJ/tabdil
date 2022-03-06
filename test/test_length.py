@@ -9,7 +9,7 @@ sys.path.append(getcwd())
 import tabdil
 
 
-def test_seconds():
+def test_length():
 	assert tabdil.length.millimeter(('km', 2)) == 2000000
 	assert tabdil.length.millimeter(('m', 3)) == 3000
 	assert tabdil.length.millimeter(('cm', 12)) == 120
