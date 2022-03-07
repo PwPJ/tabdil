@@ -19,7 +19,7 @@ def milli_gram(weight_unit):
 	return unit_number * number
 
 
-# this function converts sort of weight units (tons,kilograms,gerams) to grams
+# this function converts sort of weight units (tons,kilograms,milligerams) to grams
 def gram(weight_unit):
 	unit_name = weight_unit[0].lower()
 	number = 1
