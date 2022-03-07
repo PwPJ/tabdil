@@ -1,7 +1,7 @@
 
 
 
-# this function converts sort of length units (kilometers,metres,centimetre) to milligrams
+# this function converts sort of length units (kilometers,metres,centimetre) to millimeters
 
 def millimeter(length_unit):
 	unit_name = length_unit[0].lower()
