@@ -37,6 +37,8 @@ rm -rf  build dist tabdil.egg-info tabdil/__pycache__ test/__pycache__/
 2000
 >>> tabdil.weight.milli_gram(('ton',2))
 2000000000
+>>> tabdil.weight.gram(('kg',3))
+3000
 >>> 
 ```
 
