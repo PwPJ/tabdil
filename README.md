@@ -1,6 +1,6 @@
 # Tabdil
 
-Tabdil is a Python program that provides you with the possibility of converting measure.
+Tabdil is a Python program that provides you with the possibility of converting measures.
 
 ## Prerequisites
 
@@ -10,21 +10,23 @@ Install setuptools befor run setup.py
 pip3 install setuptools
 ```
 
-## Installation
+## Build & Install
 
-you can refer to makefile and use bellow commands for install and clean project :
-
-### Install
+you can refer to makefile and use a command for build and install the project.
 
 ```bash
+python3 setup.py build
 python3 setup.py install
 ```
 
-### Clean
+### Test
 
-```bash
-rm -rf  build dist tabdil.egg-info tabdil/__pycache__ test/__pycache__/
-```
+There are 3 python files in order to test  program:
+test_length.py
+test_weight.py
+test_time.py
+
+Also, we were used github-actions for implement CI and automation test.
 
 ## Usage
 
