@@ -1,7 +1,7 @@
 
 
 
-# this function converts sort of length units (kilometers,metres,centimetre) to milligrams
+# this function converts sort of length units (kilometers,metres,centimetre) to millimeters
 
 def millimeter(length_unit):
 	unit_name = length_unit[0].lower()
@@ -18,7 +18,7 @@ def millimeter(length_unit):
 		raise ValueError('unknown unit name {!r}'.format(unit_name))
 	unit_number = length_unit[1]
 	return unit_number * number
-	
+
 # this function converts sort of length units (kilometers,metres,millimeter) to centimetre
 
 def centimetre(length_unit):
@@ -37,4 +37,4 @@ def centimetre(length_unit):
 	unit_number = length_unit[1]
 	return unit_number * number
 	
-	
+
