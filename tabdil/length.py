@@ -12,6 +12,8 @@ def millimeter(length_unit):
 		number = 100 * 10 
 	elif unit_name == 'cm':
 		number = 10 
+	elif unit_name == 'mi':
+		number = 100 * 10 * 0.000621
 	elif unit_name == 'mm':
 		pass
 	else:
