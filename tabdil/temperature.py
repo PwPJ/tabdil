@@ -4,7 +4,6 @@ def fahrenheit(tem_unit):
     unit_tem = tem_unit[0].lower()
     number = 1
     unit_number = tem_unit[1]
-    unit_name = tem_unit[0].lower()
     if unit_tem == 'c':
         number = unit_number * 1.8 +32
     elif unit_tem == 'k':
@@ -17,5 +16,5 @@ def fahrenheit(tem_unit):
         number = unit_number
         pass
     else:
-         raise ValueError('unknown unit name {!r}'.format(unit_name))
+         raise ValueError('unknown unit name {!r}'.format(unit_tem))
     return number
