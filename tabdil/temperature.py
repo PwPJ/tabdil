@@ -14,6 +14,7 @@ def fahrenheit(tem_unit):
     elif unit_tem == 're':
         number = unit_number * 2.25 + 32
     elif unit_tem == 'f':
+        number = unit_number
         pass
     else:
          raise ValueError('unknown unit name {!r}'.format(unit_name))
