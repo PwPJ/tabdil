@@ -14,3 +14,4 @@ def test_length():
 	assert tabdil.length.millimeter(('m', 3)) == 3000
 	assert tabdil.length.millimeter(('cm', 12)) == 120
 	assert tabdil.length.millimeter(('mm', 65)) == 65
+	assert tabdil.length.millimeter(('mi', 0.1)) == 160934
