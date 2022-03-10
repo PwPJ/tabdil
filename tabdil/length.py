@@ -21,7 +21,7 @@ def millimeter(length_unit):
 
 # this function converts sort of length units (kilometers,metres,millimeter) to centimetre
 
-def centimetre(length_unit):
+def centimeter(length_unit):
 	unit_name = length_unit[0].lower()
 	number = 1
 	if unit_name == 'km':
