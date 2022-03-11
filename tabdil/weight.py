@@ -11,6 +11,8 @@ def milli_gram(weight_unit):
 		number = 1000 * 1000
 	elif unit_name == 'g':
 		number = 1000
+	elif unit_name == 'po':
+		number = 453592
 	elif unit_name == 'mg':
 		pass
 	else:
@@ -29,6 +31,8 @@ def gram(weight_unit):
 		number = 1000 
 	elif unit_name == 'mg':
 		number = 0.001
+	elif unit_name == 'po':
+		number = 453.592
 	elif unit_name == 'g':
 		pass
 	else:
