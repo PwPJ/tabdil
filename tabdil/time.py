@@ -10,7 +10,7 @@ def seconds(time_unit):
 	elif unit_name == 'h':
 		number = 60 * 60
 	elif unit_name == 'm':
-		number = 60
+		number = 65
 	elif unit_name == 's':
 		pass
 	else:
