@@ -12,6 +12,8 @@ def millimeter(length_unit):
 		number = 100 * 10 
 	elif unit_name == 'cm':
 		number = 10 
+	elif unit_name == 'mi':
+		number = 1.60934 * 1000 * 100 * 10
 	elif unit_name == 'mm':
 		pass
 	else:
@@ -32,6 +34,8 @@ def centimeter(length_unit):
 		pass 
 	elif unit_name == 'mm':
 		number = 1/10
+	elif unit_name == 'mi':
+		number = 1.60934 * 1000 * 100
 	else:
 		raise ValueError('unknown unit name {!r}'.format(unit_name))
 	unit_number = length_unit[1]
