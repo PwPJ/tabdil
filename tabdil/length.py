@@ -12,6 +12,8 @@ def millimeter(length_unit):
 		number = 100 * 10 
 	elif unit_name == 'cm':
 		number = 10 
+	elif unit_name == 'mi':
+		number = 1.60934 * 1000 * 100 * 10
 	elif unit_name == 'mm':
 		pass
 	elif unit_name == 'inch':
@@ -56,14 +58,17 @@ def meter(length_unit):
 		number = 1/1000
 	elif unit_name == 'inch':
 		number=0.0254
+
+	elif unit_name == 'mi':
+		number = 1.60934 * 1000 * 100
 	else:
 		raise ValueError('unknown unit name {!r}'.format(unit_name))
 	unit_number = length_unit[1]
 	return unit_number * number
 
-# this function converts sort of length units (millimeters,metres,centimetre,inch) to kilometres
+# this function converts sort of length units (millimeters,metres,centimetre,inch) to kilometers
 
-def kilometre(length_unit):
+def kilometer(length_unit):
 	unit_name = length_unit[0].lower()
 	number = 1
 	if unit_name == 'km':
